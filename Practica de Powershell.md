@@ -1,5 +1,7 @@
 # Práctica de Powershell
 
+La forma de ejecutar un script puede ser de distintas formas, la primera es copiar el script y pegarlo tal cual o también se puede abrir PowerShell, luego escribes la ruta del archivo y enter y te preguntará si quieres ejecutarlo.
+
 # Script 1
 
 ![image](https://user-images.githubusercontent.com/101186662/161994579-972bd1fb-df68-4290-ad7e-7d728542acf5.png)
