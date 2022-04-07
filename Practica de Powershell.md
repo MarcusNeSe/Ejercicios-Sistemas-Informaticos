@@ -11,7 +11,9 @@ Lo que hace el script es dar un numero al nombre "number" y luego hace que se es
 ![image](https://user-images.githubusercontent.com/101186662/161995832-01dbc1b0-9dd6-4a85-92b3-4944ed51336b.png)
 ![image](https://user-images.githubusercontent.com/101186662/161995992-d34ee29a-e855-477b-b3be-a996edb95b59.png)
 
-Este script lo que hace es 
+Este script lo que hace es enseñar tres bucles diferentes y como funcionan, el primero es un for y hace que repita la palabra "hello" 5 veces, luego repite eso con un bucle distinto que es el `while` y luego con un `do while`.
+
+Despúes lo que hace es separar una frase letra por letra con enters.
 
 # Script 3
 
