@@ -13,7 +13,7 @@ ___
 ![image](https://user-images.githubusercontent.com/101186662/166245398-abd61dd4-f770-449c-b1eb-5f93e3abd491.png)
 ![image](https://user-images.githubusercontent.com/101186662/166245441-cfec328a-d401-4d0e-92f5-2097b8a48c26.png)
 
-- Le permitiremos el acceso y ya estará instalado. Para saber si lo hemos instalado correctamenete lo que deberemos hacer es abrir el navegador y escribir la ip del dispositivo en el que hemos realizado la instalación de nginx, si salgo un mensaje como este es que esta correctamente instalado.
+- Le permitiremos el acceso y ya estará instalado. Para saber si lo hemos instalado correctamenete lo que deberemos hacer es abrir el navegador y escribir la ip del dispositivo en el que hemos realizado la instalación de nginx o escribir en el navegador localhost, si salgo un mensaje como este es que esta correctamente instalado.
 
 ![image](https://user-images.githubusercontent.com/101186662/166246198-b3318cc4-b134-41d9-a57f-74242ac0baeb.png)
 
@@ -24,5 +24,4 @@ ___
 ___
 **3 - Configuración servidor**
 ___
-
 la carpeta conf y el archivo nginx.conf es igual que el default de ubuntu.
