@@ -18,8 +18,11 @@ ___
 ![image](https://user-images.githubusercontent.com/101186662/166246198-b3318cc4-b134-41d9-a57f-74242ac0baeb.png)
 
 ___
-**2 - Configuración servidor**
+**2 - Selección de los proyectos html**
+___
+- Para la selección de los proyectos lo que será es entrar [aquí](https://onehtmlpagechallenge.com/). Y seleccionar dos de los proyectos los cuales voy a usar para hacer esta practica, los dos que he elegido para la practica son los siguientes [1](https://onehtmlpagechallenge.com/entries/ping-pong.html) y [2](https://onehtmlpagechallenge.com/entries/platform.html).
+___
+**3 - Configuración servidor**
+___
 
-___
-**3 - Selección de los proyectos html**
-___
+la carpeta conf y el archivo nginx.conf es igual que el default de ubuntu.
