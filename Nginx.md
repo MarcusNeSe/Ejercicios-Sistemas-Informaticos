@@ -37,6 +37,7 @@ ___
 ![image](https://user-images.githubusercontent.com/101186662/167127683-c1c0e5c1-aaa5-41bc-89ee-43c829567d63.png)
 
 - Una vez estemos dentro del documento "ping.pong.com" iremos donde pone "server_name _ : " y lo modificaremos el guion bajo por el nombre del archivo que en mi caso será "ping.pong.com".
+
 ![image](https://user-images.githubusercontent.com/101186662/167128172-89d63a68-f04b-4995-ab97-792d88b6e817.png)
 
 - Luego editamos la linea del root de esta forma.
@@ -45,11 +46,13 @@ ___
 
 - Y también editamos el listen quitando el default_server ya que solo se puede poner en uno solo.
 
-![image](https://user-images.githubusercontent.com/101186662/167130225-2d088d5f-7bea-46b9-b280-d95c07885b8c.png)
+![image](https://user-images.githubusercontent.com/101186662/167134024-0228bc94-ed26-4c2a-9bdc-eaf94714ee31.png)
 
 - Y repetiremos el proceso con el otro archivo.
 
 ![image](https://user-images.githubusercontent.com/101186662/167128665-2603ae0c-b112-4378-8911-62316c074139.png)
+
+![image](https://user-images.githubusercontent.com/101186662/167134112-c3f0d545-27d5-403a-ba66-567b5c51cc74.png)
 
 - Ahora crearemos dos links simblicos que lo que hace es que piense que ese archivo esta en la carpeta pero en realidad está en otra. Haremos el link simbolico en la caprte "sites-enabled". Para eso primero nos moveremos al directorio "sites-enabled" y luego usaremos el comando `ln -s ../sites-available/ping.pong.com .` y `ln -s ../sites-available/plataform.com .`.
 
