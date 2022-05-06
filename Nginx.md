@@ -82,3 +82,4 @@ ___
 
 ![image](https://user-images.githubusercontent.com/101186662/167170433-b97ddde3-06d6-4362-837a-4183e60982e3.png)
 
+**Conclusión:** El trabajo está realizado correctamente el problema es que no he podido hacerlo funcionar por el fallo que me da cuanto hago el paso de restablecer nginx, ya que me da un error y no he sabido solucionarlo.
