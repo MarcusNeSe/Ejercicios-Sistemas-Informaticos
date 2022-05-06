@@ -26,6 +26,15 @@ ___
 
 ![image](https://user-images.githubusercontent.com/101186662/167112240-77463e16-e5bc-4788-8356-3c51c6014583.png)
 
+- Ahora iremos al directorio sites-available con el comando `cd`, una vez en el directorio lo que realizaremos serán dos copias del archivo "default", en las cuales colocaremos diferentes nombres para poder diferenciar los dos proyectos que hemos seleccionado. Para esto usarmeos el comando `cp` de la siguiente forma.
+
+![image](https://user-images.githubusercontent.com/101186662/167113207-5a4f6349-c684-490c-ac44-85d73fd7257a.png)
+
+- Una vez hechas las dos copias primero modificaremos el archivo "ping.pong.com", usaremos el comando `vim ping.pong.com`, en mi caso como no tenía instalado vim lo que he hecho ha sido instalarlo con le comando `apt install vim` y cuando se ha descargado ya he podido editar el archivo "ping.pong.com".
+
+![image](https://user-images.githubusercontent.com/101186662/167113876-3f6c9b51-69e5-4c11-855a-e11cb4286fc1.png)
+
+- Una vez estemos dentro del documento "ping.pong.com" iremos donde pone "server_name _ : " y lo modificaremos el guion bajo por el nombre del archivo que en mi caso será "ping.pong.com".
 
 
 # Instalación y configuración del servidor web Nginx: Virtual Hosts (Windows)
