@@ -10,9 +10,6 @@ ___
 
 - Una vez descargado lo que haremos será visualizar si se ha instalado correctamente para eso iremos al navegador y pondremos nuestra ip del dispositivo en el que hemos realizado la instalación de nginx o escribir en el navegador localhost y nos deberá salir una página así, si no sale es que no está correctamente instalado.
 
-
-- Le permitiremos el acceso y ya estará instalado. Para saber si lo hemos instalado correctamenete lo que deberemos hacer es abrir el navegador y escribir la ip del dispositivo en el que hemos realizado la instalación de nginx o escribir en el navegador localhost, si salgo un mensaje como este es que esta correctamente instalado.
-
 ![image](https://user-images.githubusercontent.com/101186662/166246198-b3318cc4-b134-41d9-a57f-74242ac0baeb.png)
 
 ___
@@ -50,7 +47,7 @@ ___
 
 - Y repetiremos el proceso con el otro archivo.
 
-![image](https://user-images.githubusercontent.com/101186662/167128665-2603ae0c-b112-4378-8911-62316c074139.png)
+![image](https://user-images.githubusercontent.com/101186662/167136657-c3e26eb5-e381-4b05-9a0a-bcb07f4e1728.png)
 
 ![image](https://user-images.githubusercontent.com/101186662/167134112-c3f0d545-27d5-403a-ba66-567b5c51cc74.png)
 
@@ -59,6 +56,15 @@ ___
 ![image](https://user-images.githubusercontent.com/101186662/167129560-5b337477-fc78-468b-8582-477c08a38e1d.png)
 
 - Recargaremos Nginx para que se guarde la nueva configuración usando el comando `nginx -s reload`.
+
+
+- Para poder hacer que cuando escribamos "ping.pong.com" o "plataform.com" en nuestro navegador vaya a una dirección lo que deberemos hacer es ponerlas en "hosts" para cuando lo escribamos se vaya a la ip de nuestro dispositivo. Tendremos que modificar nuestro archivo host.
+
+![image](https://user-images.githubusercontent.com/101186662/167135817-5f0b00ee-214c-47bd-b23d-956e6fcb665b.png)
+
+![image](https://user-images.githubusercontent.com/101186662/167136865-ac941593-a277-4bc1-a73d-418628c17737.png)
+
+
 
 # Instalación y configuración del servidor web Nginx: Virtual Hosts (Windows)
 ___
