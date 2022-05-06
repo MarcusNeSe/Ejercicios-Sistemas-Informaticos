@@ -23,9 +23,10 @@ ___
 
 ![image](https://user-images.githubusercontent.com/101186662/167112240-77463e16-e5bc-4788-8356-3c51c6014583.png)
 
-- Ahora iremos al directorio sites-available con el comando `cd`, una vez en el directorio lo que realizaremos serán dos copias del archivo "default", en las cuales colocaremos diferentes nombres para poder diferenciar los dos proyectos que hemos seleccionado. Para esto usarmeos el comando `cp` de la siguiente forma.
+- Ahora iremos al directorio sites-available con el comando `cd`, una vez en el directorio lo que realizaremos serán dos copias del archivo "default", en las cuales colocaremos diferentes nombres para poder diferenciar los dos proyectos que hemos seleccionado. Para esto usarmeos el comando `cp` de la siguiente forma. He tendio que usar el comando `mv` para cambiar el nombre al archivo vim, ya que me había equivocado.
 
 ![image](https://user-images.githubusercontent.com/101186662/167113207-5a4f6349-c684-490c-ac44-85d73fd7257a.png)
+![image](https://user-images.githubusercontent.com/101186662/167161061-77f04f79-5e95-4905-aa58-d95d1c51869f.png)
 
 - Una vez hechas las dos copias primero modificaremos el archivo "ping.pong.com", usaremos el comando `vim ping.pong.com`, en mi caso como no tenía instalado vim lo que he hecho ha sido instalarlo con le comando `apt install vim` y cuando se ha descargado ya he podido editar el archivo "ping.pong.com".
 
@@ -37,9 +38,9 @@ ___
 
 ![image](https://user-images.githubusercontent.com/101186662/167128172-89d63a68-f04b-4995-ab97-792d88b6e817.png)
 
-- Luego editamos la linea del root de esta forma.
+- Luego editamos la linea del root poniendo el nombre del subdominio.
  
-![image](https://user-images.githubusercontent.com/101186662/167128221-ea18d713-bd09-43ef-bc3e-69b0b71bdbe6.png)
+![image](https://user-images.githubusercontent.com/101186662/167161376-f533baea-8385-40ee-942b-f4ad56bfc398.png)
 
 - Y también editamos el listen quitando el default_server ya que solo se puede poner en uno solo.
 
@@ -47,13 +48,15 @@ ___
 
 - Y repetiremos el proceso con el otro archivo.
 
-![image](https://user-images.githubusercontent.com/101186662/167136657-c3e26eb5-e381-4b05-9a0a-bcb07f4e1728.png)
+![image](https://user-images.githubusercontent.com/101186662/167160847-f14a2b2e-6483-4ce3-b3fb-623a02e84fa9.png)
 
 ![image](https://user-images.githubusercontent.com/101186662/167134112-c3f0d545-27d5-403a-ba66-567b5c51cc74.png)
 
-- Ahora crearemos dos links simblicos que lo que hace es que piense que ese archivo esta en la carpeta pero en realidad está en otra. Haremos el link simbolico en la caprte "sites-enabled". Para eso primero nos moveremos al directorio "sites-enabled" y luego usaremos el comando `ln -s ../sites-available/ping.pong.com .` y `ln -s ../sites-available/plataform.com .`.
+- Ahora crearemos dos links simblicos que lo que hace es que piense que ese archivo esta en la carpeta pero en realidad está en otra. Haremos el link simbolico en la caprte "sites-enabled". Para eso primero nos moveremos al directorio "sites-enabled" y luego usaremos el comando `ln -s ../sites-available/ping.pong.com .` y `ln -s ../sites-available/plat.form.com .`.
 
-![image](https://user-images.githubusercontent.com/101186662/167129560-5b337477-fc78-468b-8582-477c08a38e1d.png)
+![image](https://user-images.githubusercontent.com/101186662/167161724-392028a2-4f7d-4d6f-b36c-1d1d77d6a18d.png)
+
+![image](https://user-images.githubusercontent.com/101186662/167162136-eb9c14de-e4e5-4e01-9c9c-a93eb032e006.png)
 
 - Recargaremos Nginx para que se guarde la nueva configuración usando el comando `nginx -s reload`.
 
@@ -63,34 +66,19 @@ ___
 
 ![image](https://user-images.githubusercontent.com/101186662/167135817-5f0b00ee-214c-47bd-b23d-956e6fcb665b.png)
 
-![image](https://user-images.githubusercontent.com/101186662/167136865-ac941593-a277-4bc1-a73d-418628c17737.png)
+![image](https://user-images.githubusercontent.com/101186662/167162323-5c2f108d-fdea-471a-9332-e40181f4d81c.png)
 
+- Ahora iremos al directorio "/var/www/" con el comando `cd /var/www` y luego crearemos los dos directorios con `mkdir ping` y `mkdir plat`, luego entraremos en el directorio "ping" con `cd ping` y crearemos un archivo "index.html" con `cat > index.html` en el cual pondremos el código html del proyecto ping pong.
 
+![image](https://user-images.githubusercontent.com/101186662/167165272-36f883f3-5f3c-4416-b129-2b6fb5dcc912.png)
 
-# Instalación y configuración del servidor web Nginx: Virtual Hosts (Windows)
-___
-**1 - Instalación de Nginx**
-___
-- Lo primero de todo que debemos hacer es ir a la página de Nginx y descargarlo desde el siguiente [enlace](http://nginx.org/en/download.html).
+![image](https://user-images.githubusercontent.com/101186662/167167895-baedbf47-e0bf-4163-9550-3cd1974c9d98.png)
 
-- Una vez descargado abriremos la carpeta comprimida y ejecutaremos nginx.exe. Pero lo que suelo hacer yo es extraer la carpeta comprimida en el escritorio y desde ahí ya entro dentro de la carpeta y ejecuto nginx.exe.
+![image](https://user-images.githubusercontent.com/101186662/167167944-be9c0996-bfe8-4e73-a06f-448c2782f22f.png)
 
-![image](https://user-images.githubusercontent.com/101186662/166245228-a073b54b-de57-4c7c-aff6-cad593c3c799.png)
+![image](https://user-images.githubusercontent.com/101186662/167167993-2abcc69c-0d33-4c12-aa9f-002dd9e06322.png)
 
-- Una vez extraido nos saldrá esta carpetaa la abriremos y ejecutaremos nginx.exe.
+- Ahora haremos lo mismo con la carpeta plat.
 
-![image](https://user-images.githubusercontent.com/101186662/166245398-abd61dd4-f770-449c-b1eb-5f93e3abd491.png)
-![image](https://user-images.githubusercontent.com/101186662/166245441-cfec328a-d401-4d0e-92f5-2097b8a48c26.png)
+![image](https://user-images.githubusercontent.com/101186662/167170433-b97ddde3-06d6-4362-837a-4183e60982e3.png)
 
-- Le permitiremos el acceso y ya estará instalado. Para saber si lo hemos instalado correctamenete lo que deberemos hacer es abrir el navegador y escribir la ip del dispositivo en el que hemos realizado la instalación de nginx o escribir en el navegador localhost, si salgo un mensaje como este es que esta correctamente instalado.
-
-![image](https://user-images.githubusercontent.com/101186662/166246198-b3318cc4-b134-41d9-a57f-74242ac0baeb.png)
-
-___
-**2 - Selección de los proyectos html**
-___
-- Para la selección de los proyectos lo que será es entrar [aquí](https://onehtmlpagechallenge.com/). Y seleccionar dos de los proyectos los cuales voy a usar para hacer esta practica, los dos que he elegido para la practica son los siguientes [1](https://onehtmlpagechallenge.com/entries/ping-pong.html) y [2](https://onehtmlpagechallenge.com/entries/platform.html).
-___
-**3 - Configuración servidor**
-___
-la carpeta conf y el archivo nginx.conf es igual que el default de ubuntu.
