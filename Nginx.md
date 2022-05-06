@@ -34,8 +34,28 @@ ___
 
 ![image](https://user-images.githubusercontent.com/101186662/167113876-3f6c9b51-69e5-4c11-855a-e11cb4286fc1.png)
 
-- Una vez estemos dentro del documento "ping.pong.com" iremos donde pone "server_name _ : " y lo modificaremos el guion bajo por el nombre del archivo que en mi caso será "ping.pong.com".
+![image](https://user-images.githubusercontent.com/101186662/167127683-c1c0e5c1-aaa5-41bc-89ee-43c829567d63.png)
 
+- Una vez estemos dentro del documento "ping.pong.com" iremos donde pone "server_name _ : " y lo modificaremos el guion bajo por el nombre del archivo que en mi caso será "ping.pong.com".
+![image](https://user-images.githubusercontent.com/101186662/167128172-89d63a68-f04b-4995-ab97-792d88b6e817.png)
+
+- Luego editamos la linea del root de esta forma.
+ 
+![image](https://user-images.githubusercontent.com/101186662/167128221-ea18d713-bd09-43ef-bc3e-69b0b71bdbe6.png)
+
+- Y también editamos el listen quitando el default_server ya que solo se puede poner en uno solo.
+
+![image](https://user-images.githubusercontent.com/101186662/167130225-2d088d5f-7bea-46b9-b280-d95c07885b8c.png)
+
+- Y repetiremos el proceso con el otro archivo.
+
+![image](https://user-images.githubusercontent.com/101186662/167128665-2603ae0c-b112-4378-8911-62316c074139.png)
+
+- Ahora crearemos dos links simblicos que lo que hace es que piense que ese archivo esta en la carpeta pero en realidad está en otra. Haremos el link simbolico en la caprte "sites-enabled". Para eso primero nos moveremos al directorio "sites-enabled" y luego usaremos el comando `ln -s ../sites-available/ping.pong.com .` y `ln -s ../sites-available/plataform.com .`.
+
+![image](https://user-images.githubusercontent.com/101186662/167129560-5b337477-fc78-468b-8582-477c08a38e1d.png)
+
+- Recargaremos Nginx para que se guarde la nueva configuración usando el comando `nginx -s reload`.
 
 # Instalación y configuración del servidor web Nginx: Virtual Hosts (Windows)
 ___
