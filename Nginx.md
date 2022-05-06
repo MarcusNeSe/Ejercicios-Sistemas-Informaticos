@@ -57,6 +57,7 @@ ___
 
 - Recargaremos Nginx para que se guarde la nueva configuración usando el comando `nginx -s reload`.
 
+![image](https://user-images.githubusercontent.com/101186662/167144005-39d1403b-69d0-44bc-a132-87f4aee479bf.png)
 
 - Para poder hacer que cuando escribamos "ping.pong.com" o "plataform.com" en nuestro navegador vaya a una dirección lo que deberemos hacer es ponerlas en "hosts" para cuando lo escribamos se vaya a la ip de nuestro dispositivo. Tendremos que modificar nuestro archivo host.
 
