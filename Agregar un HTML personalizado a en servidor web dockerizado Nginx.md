@@ -4,7 +4,7 @@ Primero descargamos el contenedor Nginx desde docker hub
 
 ![imagen](https://user-images.githubusercontent.com/101186662/169322182-c5832adf-3725-4af3-af50-d46ed1973986.png)
 
-Luego ejecutamos y le ponemos un nombre
+Luego ejecutamos y le ponemos un nombre y puerto.
 
 ![imagen](https://user-images.githubusercontent.com/101186662/169322490-da4fe50b-d05e-474b-9500-4878dd9c957a.png)
 
