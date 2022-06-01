@@ -132,37 +132,37 @@ determinado, al tener una estructura de base que lo puede soportar
 
 **D)** Cada estructura se dependiza del resto
 ___
-14 - 
+14 - Que son los contenedores?
 ___
-A)
+A) Son una unidad de ejecución.
 
-B)
+B) Contienen un sistmea operativo mínimo y de un servicio instalado en él.
 
-C)
+C) Son unidades de ejecución pesadas ya que necesitan contener sistemas operativos y muchos servicios.
 
-D)
+**D)** A y B son correctas.
 ___
-15 - 
+15 - Que comando nos listara los contenedores de docker?
 ___
-A)
+**A)** docker container ls
 
-B)
+B) docker pss
 
-C)
+C) docker ls
 
-D)
+D) docker ll
 ___
-16 - 
+16 - Necesitmos instalar algo antes a parte de docker para poder ejecutrar `docker run hello-wolrd`.
 ___
-A)
+A) Hay que crear un volumen antes.
 
-B)
+**B)** No es necesario con ese mimso comando se ejecuta correctamente.
 
-C)
+C) Tenemos que descargarse el conetenedor previamente.
 
-D)
+D) Debemos revisar que no este en ejecución antes ya que sino nos daría error.
 ___
-17 - 
+17 - Que hace el comando ´docker run´
 ___
 A)
 
@@ -194,10 +194,20 @@ D)
 ___
 20 - 
 ___
-A)
+A) 
 
 B)
 
 C)
 
 D)
+___
+21 - Has disfrutado con este kahoot?
+___
+A) Es la D.
+
+B) Se nota que te quedas sin preguntas.
+
+C) Siii mucho.
+
+**D)** B y C son correctas.
