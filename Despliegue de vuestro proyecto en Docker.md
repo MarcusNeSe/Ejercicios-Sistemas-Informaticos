@@ -3,7 +3,13 @@
 ___
 1 - Introducción
 ___
+En esta practica enseñaremos como desplegar nuestro proyecto con docker compose.
 
+Para eso, primero enseñaremos como instalamos docker compose, lo primero que hacemos es ejecutar el siguiente comando `sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose~`, luego sigue el comando `sudo chmod +x /usr/local/bin/docker-compose` y para finalizar `docker-compose --version
+docker-compose version 1.27.4, build 40524192`.
+
+Para que sirve docker compose?
+Sirve para poder ejecutar varios contenedores al mismo tiempo y juntos, como si fuera uno mimso.
 ___
 2 - Configuración docker-compose.yml
 ___
