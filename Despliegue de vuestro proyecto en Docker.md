@@ -1,7 +1,7 @@
 # Despliegue de vuestro proyecto en Docker
 
 ___
-1 - Introducción
+**1 - Introducción**
 ___
 En esta practica enseñaremos como desplegar nuestro proyecto con docker compose.
 
@@ -12,27 +12,27 @@ Para que sirve docker compose?
 
 Sirve para poder ejecutar varios contenedores al mismo tiempo y juntos, como si fuera uno mimso.
 ___
-2 - Configuración docker-compose.yml
+**2 - Configuración docker-compose.yml**
 ___
 
 ___
-3 - Pasos para el despliegue de la apliación
+**3 - Pasos para el despliegue de la apliación**
 ___
 
 ___
-4 - Preparación y subida de la imagen en dockerhub
+**4 - Preparación y subida de la imagen en dockerhub**
 ___
 
 ___
-5 - Realización del pull
+**5 - Realización del pull**
 ___
 
 ___
-6 - Conclusiones
+**6 - Conclusiones**
 ___
 
 ___
-7 - Annexos
+**7 - Annexos**
 ___
 
 Para hacer el pull, hay que morar las imagenes que tenemos primero.
