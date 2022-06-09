@@ -10,7 +10,7 @@ docker-compose version 1.27.4, build 40524192`.
 
 Para que sirve docker compose?
 
-Sirve para poder ejecutar varios contenedores al mismo tiempo y juntos, como si fuera uno mimso.
+Sirve para poder ejecutar varios contenedores al mismo tiempo y juntos, como si fuera uno mismo.
 ___
 **2 - Configuración docker-compose.yml**
 ___
