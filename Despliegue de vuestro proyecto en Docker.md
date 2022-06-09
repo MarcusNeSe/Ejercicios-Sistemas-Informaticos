@@ -3,6 +3,10 @@
 ___
 **1 - Introducción**
 ___
+- Requisitos:
+
+Usaremos docker y docker-compose.
+
 En esta practica enseñaremos como desplegar nuestro proyecto con docker compose.
 
 Para eso, primero enseñaremos como instalamos docker compose, lo primero que hacemos es ejecutar el siguiente comando `sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose~`, luego sigue el comando `sudo chmod +x /usr/local/bin/docker-compose` y para finalizar `docker-compose --version
